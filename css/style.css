@@ -1,0 +1,314 @@
+/* RESET */
+
+/*
+ * html5doctor.com Reset Stylesheet v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/)
+ * Richard Clark (http://richclarkdesign.com)
+ * http://cssreset.com
+ */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, hgroup, menu, section, summary,
+time, mark, audio, video, main, nav, header {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+body {
+  line-height:1;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+  display:block;
+}
+nav ul {
+  list-style:none;
+}
+blockquote, q {
+  quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content:'';
+  content:none;
+}
+a {
+  margin:0;
+  padding:0;
+  /*font-size:100%;*/
+  vertical-align:baseline;
+  background:transparent;
+}
+
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+  display:block;
+  height:1px;
+  border:0;
+  border-top:1px solid #cccccc;
+  margin:1em 0;
+  padding:0;
+}
+input, select {
+  vertical-align:middle;
+}
+
+/* END RESET */
+
+
+/* >>>>>>>>>>>> GLOBAL <<<<<<<<<<<<<<<< */
+
+body {
+  font-family: "Montserat", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.2;
+
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255,255,255);
+
+}
+
+/*header, .sec_1, */.sec_2, .sec_3,
+.sec_4, .sec_5, .sec_6, .sec_7,
+.sec_8, .sec_9, footer {
+  opacity: 0;
+}
+
+body {
+
+  background:
+    linear-gradient( 0deg, rgba(252,227,138,0.9) 0%,
+    rgba(243,129,129,0.9) 100%) top no-repeat,
+    url(../img/header/OREL.jpg) no-repeat;
+    /*rgba(200,200,100,0.5);*/
+  background-position: center;
+  height: 1000px;
+
+}
+
+/*>>>>>>>>>>>>>> HEADER <<<<<<<<<<<<<<< */
+
+header {
+  display: block;
+  /*width: 100%;*/
+  height: 100px;
+  border: 0px double black;
+}
+
+.wrapper_header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1900px;
+  height: 100px;
+  border: 0px double black;
+}
+
+.header_logo {
+  position: relative;
+  top: 21.5px;
+  left: 349.5px;
+  border: 0px double black;
+}
+
+header ul {
+  display: flex;
+  align-items: stretch;
+  font-size: 14px;
+  font-weight: lighter;
+  width: 740px;
+  height: 25px;
+  color: rgb(252,227,138);
+  position: relative;
+  left: 950px;
+  border: 0px solid black;
+}
+
+header li {
+  display: inline;
+  width: auto;
+  margin-right: 60px;
+  vertical-align: middle;
+  border: 0px solid black;
+}
+
+header ul a {
+  display: block;
+  border-bottom: 2px solid rgba(252,227,138,0);
+  height: 25px;
+}
+header li:nth-child(6) {
+  margin-right: 40px;
+}
+
+header a:focus {
+  color: rgb(252, 227, 138);
+  border-bottom: 3px solid rgba(252,227,138,1);
+}
+
+/*>>>>>>>>>>>>>>>> SECTION_1 <<<<<<<<<<<<<<<<<<<*/
+
+
+.sec_1 {
+  display: block;
+  width: 100%;
+  height: 900px;
+  font-family: "Montserrat";
+  color: white;
+
+  border: 0px double black;
+
+
+}
+
+.header_1 {
+  display: block;
+  font-family: "Kaushan Script", Arial, sans-serif;
+  font-size: 72px;
+  text-align: center;
+  position: relative;
+  top: 110px;
+
+  border: 0px double black;
+
+}
+
+.header_2 {
+  display: block;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 150px;
+  font-weight: bold;
+  line-height: 0.933;
+  text-align: center;
+  position: relative;
+  top: 150px;
+
+  border: 0px double black;
+
+}
+
+.line_decor {
+  position: relative;
+  top: 190px;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 100px;
+  color: rgba(255, 255, 255, 1);
+  border-top: 2px solid;
+}
+
+.site_nav_1 a {
+  color: rgba(255,255,255,0.7);
+}
+
+.site_nav_1 a:focus {
+  color: rgb(255, 255, 255);
+}
+
+.button {
+  display: block;
+  width: 200px;
+  text-align: center;
+  position: relative;
+  top: 220px;
+
+  font-size: 14px;
+  line-height: 1.2;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  border: 2px solid white;
+}
+
+
+.sec_1 nav {
+  display: block;
+  position: relative;
+  top: 360px;
+  text-align: center;
+
+  border: 0px solid black;
+}
+
+/*.sec_1_nav {
+  display: block;
+  text-align: center;
+  position: relative;
+  top: 270px;
+
+  border: 1px double black;
+
+}*/
+
+.sec_1 ul {
+  display: flex;
+  justify-content: center;
+  width: 1900px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  border: 0px double black;
+
+}
+
+.sec_1 li {
+  display: flex;
+  align-items: flex-end;
+  font-size: 16px;
+  font-weight: bold;
+  height: 50px;
+  width: 300px;
+  letter-spacing: 1px;
+  margin: 10px;
+  border: 0px solid white;
+}
+
+.sec_1 nav ul a {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+  border-top: 4px solid rgba(255,255,255,0.6);
+}
+
+.sec_1 em {
+  font-size: 24px;
+  font-style: normal;
+}
+
+.sec_1 .main_nav_1 a:focus {
+  color: rgb(255, 255, 255);
+  border-top: 4px solid rgba(255,255,255,1);
+}

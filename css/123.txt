@@ -1,0 +1,113 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  border:0;
+  font-family: "Montserat", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: black;
+  /*text-transform: uppercase;*/
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+/*body {
+  background-image: url("../img/header/OREL.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+}*/
+
+.head {
+  border-style: none;
+  background:
+    linear-gradient( 0deg, rgba(252,227,138,0.9) 0%, rgba(243,129,129,0.9) 100%), url("../img/header/OREL.jpg");
+    /*linear-gradient(105deg, rgba(255,255,255,.2) 39%, rgba(51,56,57,1) 96%) center center / 100% 100% no-repeat,
+    url(../img/sec_3/logo.jpg) center no-repeat;*/
+  background-repeat: no-repeat;
+}
+
+
+.header_logo {
+  position: relative;
+  top: 21.5px;
+  left: 359.5px;
+}
+
+header {
+  height: 100px;
+  box-sizing: border-box;
+}
+
+.sec_1 {
+  height: 828px;
+  box-sizing: border-box;
+}
+
+header nav ul {
+  list-style: none;
+
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(252, 227, 138);
+  line-height: 1.2;
+  position: absolute;
+  left: 1047.344px;
+  top: 22.6px;
+}
+
+header ul li {
+  display: inline;
+}
+
+.sec_1 ul li {
+
+  font-size: 16px;
+  font-family: "Montserrat";
+  line-height: 1.2;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.702);
+  position: absolute;
+  top: 950px;
+  left: 670px;
+
+}
+
+.sec_1 ul li {
+  display: inline;
+}
+
+.sec_1 ul li span {
+  font-size: 24px;
+  font-family: "Montserrat";
+  line-height: 1.2;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.702);
+
+}
+
+.header_1 {
+  font-size: 72px;
+  font-family: "Kaushan Script";
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 80px;
+}
+
+.header_2 {
+  font-size: 150px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  line-height: 0.933;
+  position: absolute;
+  left: 543.703px;
+  top: 200.5px;
+  z-index: 17;
+}

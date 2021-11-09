@@ -1,65 +1,70 @@
 <!DOCTYPE html>
-<html lang="RU">
+<html lang="LA">
 <head>
   <title>MOGO</title>
   <meta charset="utf-8">
-  <lin  href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header class="main_header">
-    <img src="img/logo_header.svg">
-    <nav class="main_nav">
+    <div class="wrapper_header">
+      <a href="index.html"><p><img class="header_logo" src="img/header/MoGo_logo.svg"></p></a>
+      <nav class="main_nav">
       <ul class="site_nav">
-        <li>
-           <a href="about.html">ABOUT</a>
-        </li>
-        <li>
-          <a href="service.html">SERVICE</a>
-        </li>
-        <li>
-          <a href="work.html">WORK</a>
-        </li>
-        <li>
-          <a href="blog.html">BLOG</a>
-        </li>
-        <li>
-          <a href="contact.html">CONTACT</a>
-        </li>
-        <li>
-          <a href="store.html">
-            <img src="img/store.svg">
-          </a>
-        </li>
-        <li>
-          <a href="research.html">
-            <img src="img/research.svg">
-          </a>
-        </li>
-      </ul>
+          <li>
+            <a href="about.html">ABOUT</a>
+          </li>
+          <li>
+            <a href="service.html">SERVICE</a>
+          </li>
+          <li>
+            <a href="work.html">WORK</a>
+          </li>
+          <li>
+            <a href="blog.html">BLOG</a>
+          </li>
+          <li>
+            <a href="contact.html">CONTACT</a>
+          </li>
+          <li>
+            <a href="store.html">
+            <img src="img/header/SHOPPING CART.svg">
+            </a>
+          </li>
+          <li>
+            <a href="research.html">
+            <img src="img/header/MAGNIFYING GLASS.svg">
+            </a>
+          </li>
+        </ul>
     </nav>
+    </div>
   </header>
   <main class="container">
-    <h1 class="visual_hidden">SITE OF MOGO DESIGN STUDIO</h1>
-      <section class="sec_1">
-        <!--<h2 class="visual_hidden">Welcome to MOGO</h2>-->
-        <p>Creative Template</p>
-        <p>WELCOME TO MOGO</p>
-        <a class="button" href="about.html">LEARN MORE</a>
-        <nav class="main_nav_1">
+    <!--<h1 class="visual_hidden">SITE OF MOGO DESIGN STUDIO</h1>-->
+    <section class="sec_1">
+      <!--<h2 class="visual_hidden">Welcome to MOGO</h2>-->
+      <p class="header_1" >Creative Template</p>
+      <p class="header_2">WELCOME <br> TO MOGO</p>
+      <hr class="line_decor">
+      <a class="button" href="about.html">LEARN MORE</a>
+      <nav class="main_nav_1">
           <ul class="site_nav_1">
-            <li><span>01</span>INTRO</li>
-            <li><span>02</span>WORK</li>
-            <li><span>03</span>ABOUT</li>
-            <li><span>04</span>CONTACTS</li>
+            <li><a href="intro.html"><p><em>01 </em>INTRO</p></a></li>
+            <li><a href="work.html"><p><em>02 </em>WORK</p></a></li>
+            <li><a href="about.html"><p><em>03 </em>ABOUT</p></a></li>
+            <li><a href="contacts.html"><p><em>04 </em>CONTACTS</p></a></li>
           </ul>
-        </nav>
-      </section>
-      <section class="sec_2">
+      </nav>
+    </section>
+    <section class="sec_2">
         <!--<h2 class="visual_hidden">What we do</h2>-->
         <h3 class="section_heading_lev_1">What we do</h3>
         <h4 class="section_heading_lev_2">STORY ABOUT US<h4>
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi utali aliquip ex ea commodo consequat.
+        <p class="sec_description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi utali aliquip ex ea commodo consequat.
         </p>
         <figure class="pic_1">
           <img src="img/sec_2/pic_1.jpg">
@@ -87,7 +92,7 @@
           </tr>
         </table>
       </section>
-      <section class="sec_3">
+    <section class="sec_3">
           <!--<h2 class="visual_hidden">We work with</h2>-->
           <h3 class="section_heading_lev_1">We work with</h3>
           <h4 class="section_heading_lev_2">AMAZING SERVICES<h4>
@@ -135,7 +140,7 @@
               </div>
             </li>
       </section>
-      <section class="sec_4">
+    <section class="sec_4">
           <!--<h2 class="visual_hidden">For all devices</h2>-->
           <h3 class="section_heading_lev_1">For all devices</h3>
           <h4 class="section_heading_lev_2">UNIQUE DESIGN<h4>
@@ -146,11 +151,376 @@
             <img src="img/sec_4/pic_2.jpg">
           </figure>
       </section>
+    <section class="sec_5">
+        <!--<h2 class="visual_hidden">Service</h2>-->
+        <h3 class="section_heading_lev_1">Service</h3>
+        <h4 class="section_heading_lev_2">What we do<h4>
+        <p class="sec_description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi utali aliquip ex ea commodo consequat.
+        </p>
+        <figure class="pic_1">
+          <img src="img/sec_5/pic_1.jpg">
+        </figure>
+        <!--ACCORDEON_ver.0-->
+        <details>
+          <summary>
+            <img src="img/sec_5/pic_2">PHOTOGRAPHY
+          </summary>
+          <p class="accord_text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi utali aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </details>
+        <details>
+          <summary>
+            <img src="img/sec_5/pic_3">CREATIVITY
+          </summary>
+          <p class="accord_text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi utali aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </details>
+        <details>
+          <summary>
+            <img src="img/sec_5/pic_4">WEB DESIGN
+          </summary>
+          <p class="accord_text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi utali aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </details>
 
-
+        <!--ACCORDEON-->
+        <!--
+        <button class="accordion" type="button"><img src="img/sec_5/pic_2">PHOTOGRAPHY</button>
+          <div class="accordion_content">
+            <p class="accordeon_text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi utali aliquip ex ea commodo consequat. Duis
+              aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+              cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+         </div>
+         <button class="accordion" type="button"><img src="img/sec_5/pic_3">CREATIVITY</button>
+           <div class="accordion_content">
+             <p class="accordeon_text">
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua.
+               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi utali aliquip ex ea commodo consequat. Duis
+               aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+               cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+             </p>
+          </div>
+          <button class="accordion" type="button"><img src="img/sec_5/pic_4">WEB DESIGN</button>
+            <div class="accordion_content">
+              <p class="accordeon_text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi utali aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+           </div>
+         -->
+          <button class="button_footer" type="button"><img src="img/sec_5/pic_5"></button>
+          <!--<div class="par_footer">
+            <p class="citation_text">
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua.
+               Ut enim ad minim veniam, quis nostrud exercitation."
+            </p>
+          </div>-->
+          <figure >
+            <img src="img/sec_5/pic_7.jpg">
+            <blockquote>
+              <p class="citation_text">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua.
+                 Ut enim ad minim veniam, quis nostrud exercitation."
+              </p>
+            </blockquote>
+            <figcaption> - Jon Doe </figcaption>
+          </figure>
+          <button class="button_footer" type="button"><img src="img/sec_5/pic_6"></button>
+      </section>
+    <section class="sec_6">
+        <!--<h2 class="visual_hidden">What we do</h2>-->
+        <h3 class="section_heading_lev_1">Who we are</h3>
+        <h4 class="section_heading_lev_2">MEET OUR TEAM<h4>
+        <p class="sec_description">
+           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua.
+           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi utali aliquip ex ea commodo consequat.
+        </p>
+        <figure class="workers">
+          <img src="img/sec_6/pic_1.jpg">
+          <figurecaption><p class="sec_6_figurecaption">MATTHEW DIX </br> Graphic Design</p></figcaption>
+        </figure>
+        <figure class="workers">
+          <img src="img/sec_6/pic_2.jpg">
+          <figurecaption><p class="sec_6_figurecaption">CHRISTOPHER CAMPBEL </br> Branding/UX design</p></figcaption>
+        </figure>
+        <figure class="workers">
+          <img src="img/sec_6/pic_3.jpg">
+          <figurecaption><p class="sec_6_figurecaption">MICHAEL FERTIG </br> Developer</p></figcaption>
+        </figure>
+        <ul class="sec_6_footer_pic">
+          <li>
+            <img src="/sec_6/pic_4">
+          </li>
+          <li>
+            <img src="/sec_6/pic_5">
+          </li>
+          <li>
+            <img src="/sec_6/pic_6">
+          </li>
+          <li>
+            <img src="/sec_6/pic_7">
+          </li>
+          <li>
+            <img src="/sec_6/pic_8">
+          </li>
+          <li>
+            <img src="/sec_6/pic_9">
+          </li>
+      </section>
+    <section class="sec_7">
+        <!--<h2 class="visual_hidden">What we do</h2>-->
+        <h3 class="section_heading_lev_1">What we do</h3>
+        <h4 class="section_heading_lev_2">SOME OF OUR WORK<h4>
+        <p class="sec_description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi utali aliquip ex ea commodo consequat.
+        </p>
+        <figure>
+          <img src="img/sec_7/pic_1">
+        </figure>
+        <figure>
+          <img src="img/sec_7/pic_2">
+        </figure>
+        <figure>
+          <img src="img/sec_7/pic_3">
+        </figure>
+        <figure>
+          <img src="img/sec_7/pic_4">
+        </figure>
+        <figure>
+          <img src="img/sec_7/pic_5">
+        </figure>
+        <figure>
+          <img src="img/sec_7/pic_6">
+        </figure>
+        <figure>
+          <img src="img/sec_7/pic_7">
+        </figure>
+        <button class="button_footer" type="button"><img src="img/sec_5/pic_5"></button>
+        <figure >
+          <blockquote>
+            <img src="img/sec_7/pic_8.jpg">
+            <p class="citation_text">
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua.
+               Ut enim ad minim veniam, quis nostrud exercitation."
+            </p>
+          </blockquote>
+          <figcaption> - Joshua Earle </figcaption>
+        </figure>
+        <button class="button_footer" type="button"><img src="img/sec_5/pic_6"></button>
+    <section class="sec_8">
+        <h3 class="section_heading_lev_1">Happy Client</h3>
+        <h4 class="section_heading_lev_2">WHAT PEOPLE SAY<h4>
+        <ul class="people_say">
+          <li>
+            <figure class="fig_people_say">
+              <img src="img/sec_8/pic_1">
+              <figcaption>MATTHEW DIX</br>Graphic Design</figurecaption>
+            </figure>
+            <p class="sec_8_citation">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua.
+              Ut enim ad minim.
+            </p>
+          </li>
+          <li>
+            <figure class="fig_people_say">
+              <img src="img/sec_8/pic_2">
+              <figcaption>NICK KARVOUNIS</br>Graphic Design</figurecaption>
+            </figure>
+            <p class="sec_8_citation">
+              Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua.
+              Ut enim ad minim veniam.
+            </p>
+          </li>
+          <li>
+            <figure class="fig_people_say">
+              <img src="img/sec_8/pic_3">
+              <figcaption>JAELINN CASTILLO</br>Graphic Design</figurecaption>
+            </figure>
+            <p class="sec_8_citation">
+              Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua.
+              Ut enim ad minim veniam
+            </p>
+          </li>
+          <li>
+            <figure class="fig_people_say">
+              <img src="img/sec_8/pic_4">
+              <figcaption>MIKE PETRUCCI</br>Graphic Design</figurecaption>
+            </figure>
+            <p class="sec_8_citation">
+              Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua.
+              Ut enim ad minim.
+            </p>
+          </li>
+        </ul>
+    <section class="sec_9">
+        <h3 class="section_heading_lev_1">Our stories</h3>
+        <h4 class="section_heading_lev_2">LATAST BLOG<h4>
+        <ul class="our_stories">
+          <li>
+            <a href="blog_15_01.html">
+              <figure>
+                <img src="img/sec_9/pic_1">
+                <figurecaption>LOREM IPSUM DOLOR SIT AMET</figcaption>
+              </figure>
+              <p class="sec_9_text">
+                Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua.
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="blog_14_01.html">
+              <figure>
+                <img src="img/sec_9/pic_2">
+                <figurecaption>LOREM IPSUM DOLOR SIT AMET</figcaption>
+              </figure>
+              <p class="sec_9_text">
+                Adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua.
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="blog_12_01.html">
+              <figure>
+                <img src="img/sec_9/pic_3">
+                <figurecaption>LOREM IPSUM DOLOR SIT AMET</figcaption>
+              </figure>
+              <p class="sec_9_text">
+                Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua.
+              </p>
+            </a>
+          </li>
+        </ul>
+      </section>
+    <a href="map.html"><img src="img/main/pic_1"></a>
   </main>
   <footer>
-
+    <img src="img/footer/footer_logo.svg">
+    <p class="footer_text">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua.
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi utali aliquip ex ea commodo consequat.
+    <p>
+    <span>15k follovers<span>
+    <ul class="footer_ul_1">
+      <h6>Folow Us</h6>
+      <li>
+        <a><img src="img/footer/facebook.svg"></a>
+      </li>
+      <li>
+        <a><img src="img/footer/twitter.svg"></a>
+      </li>
+      <li>
+        <a><img src="img/footer/instagramm.svg"></a>
+      </li>
+      <li>
+        <a><img src="img/footer/google+.svg"></a>
+      </li>
+      <li>
+        <a><img src="img/footer/youtube.svg"></a>
+      </li>
+    </ul>
+    <ul>
+      <h6>BLOGS</h6>
+      <li>
+        <a href="blog_9_01.html">
+          <img src="img/footer/blog_pic_1.jpg">
+          <p class="footer_blog_name">
+            LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING
+          </p>
+          <time footer_text_1 datetime="2016-01-09">Jan 9, 2016<time>
+        </a>
+      </li>
+      <li>
+        <a href="blog_9_1_01.html">
+          <img src="img/footer/blog_pic_2.jpg">
+          <p class="footer_blog_name">
+            CONSECTETUR ADIPISCING ELIT, SED DO EIUSMOD TEMPOR
+          </p>
+          <time class="footer_text_1" datetime="2016-01-09">Jan 9, 2016<time>
+        </a>
+      </li>
+      <li>
+        <a href="blog_9_2_01.html">
+          <img src="img/footer/blog_pic_3.jpg">
+          <p class="footer_blog_name">
+            SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE
+          </p>
+          <time class="footer_text_1"datetime="2016-01-09">Jan 9, 2016<time>
+        </a>
+      </li>
+    <ul>
+      <h6>INSTAGRAM</h6>
+      <li>
+        <a href="instagramm_mogo_1.html">
+          <img src="img/footer/instagramm_pic_1.jpg">
+        </a>
+      </li>
+      <li>
+        <a href="instagramm_mogo_2.html">
+          <img src="img/footer/instagramm_pic_2.jpg">
+        </a>
+      </li>
+      <li>
+        <a href="instagramm_mogo_3.html">
+          <img src="img/footer/instagramm_pic_3.jpg">
+        </a>
+      </li>
+      <li>
+        <a href="instagramm_mogo_4.html">
+          <img src="img/footer/instagramm_pic_4.jpg">
+        </a>
+      </li>
+      <li>
+        <a href="instagramm_mogo_5.html">
+          <img src="img/footer/instagramm_pic_5.jpg">
+        </a>
+      </li>
+      <li>
+        <a href="instagramm_mogo_6.html">
+          <img src="img/footer/instagramm_pic_6.jpg">
+        </a>
+      </li>
+      <li>
+        <a href="instagramm_mogo_7.html">
+          <img src="img/footer/instagramm_pic_7.jpg">
+        </a>
+      </li>
+      <li>
+        <a href="instagramm_mogo_8.html">
+          <img src="img/footer/instagramm_pic_8.jpg">
+        </a>
+      </li>
+      <li>
+        <a href="instagramm_mogo_9.html">
+          <img src="img/footer/instagramm_pic_9.jpg">
+        </a>
+      </li>
+      <li>
+        <a href="instagramm_mogo.html">
+          <span class="footer_text_1">View more photos</span>
+        </a>
+      </li>
+    </ul>
+    <span class="footer_text_2">2016 MoGo free PSD template by Laaqiq</span>
   </footer>
 </body>
 </html>
