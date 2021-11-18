@@ -80,25 +80,27 @@ input, select {
 /* >>>>>>>>>>>> GLOBAL <<<<<<<<<<<<<<<< */
 
 html {
-
-  border: 0px solid red;
+  display: block;
   width: auto;
   padding-left: auto;
   padding-right: auto;
 
+  border: 0px solid red;
 
-  background:
-    /*linear-gradient( 0deg, rgba(252,227,138,0.9) 0%,
+  /*background:
+    linear-gradient( 0deg, rgba(252,227,138,0.9) 0%,
     rgba(243,129,129,0.9) 100%) top no-repeat,
     url(../img/MoGo_FREE_Template_by_Laaqiq.jpg) top no-repeat;*/
+
 }
 body {
   display: block;
+
   font-family: "Montserat", Arial, sans-serif;
   font-size: 20px;
   font-weight: bold;
-  text-align: center;
-  width: 1896px;
+  width: auto;
+
   margin-left: auto;
   margin-right: auto;
 
@@ -107,6 +109,7 @@ body {
     /*linear-gradient( 0deg, rgba(252,227,138,0.9) 0%,
     rgba(243,129,129,0.9) 100%) top no-repeat,*/
     url(../img/header/OREL1.jpg) top no-repeat;
+
 
   border: 0px solid green;
 }
@@ -135,6 +138,17 @@ h4 {
   letter-spacing: 0px;
 }
 
+h5 {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(51, 51, 51);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  margin-left: 90px;
+  margin-top: 30px;
+}
+
 .line_decor_1 {
   margin-top: 34px;
   margin-left: auto;
@@ -145,7 +159,7 @@ h4 {
 }
 
 /*header, .sec_1, .sec_2, .sec_3,
-.sec_4, */.sec_5, .sec_6, .sec_7,
+.sec_4, .sec_5, */.sec_6, .sec_7,
 .sec_8, .sec_9, footer {
   opacity: 0;
 }
@@ -464,7 +478,7 @@ header ul a:active {
   display: flex;
   justify-content: center;
   align-items: stretch;
-  width: 1898px;
+  width: auto;
   height: 270px;
   background: rgba(149, 225, 211, 1);
   margin-left: auto;
@@ -527,17 +541,6 @@ header ul a:active {
   margin-top: 15px;
 }
 
-.sec_3 h5 {
-  font-size: 14px;
-  font-family: "Montserrat";
-  color: rgb(51, 51, 51);
-  text-transform: uppercase;
-  line-height: 1.2;
-  text-align: left;
-  margin-left: 90px;
-  margin-top: 30px;
-}
-
 .sec_3 p {
   font-size: 15px;
   font-family: "Roboto";
@@ -587,14 +590,17 @@ header ul a:active {
 /*>>>>>>>>>>>>>>>>> SECTION_4 <<<<<<<<<<<<<<<<<<<<<<*/
 
 .sec_4 {
-  width: 1898px;
-  height: 930px;
+  position: relative;
+  width: auto;
+  height: 940px;
   margin-top: 75px;
   margin-left: auto;
   margin-right: auto;
   padding: 1px;
-  background-image: url(../img/sec_4/fon.jpg);
-  z-index: -10;
+  background-image: url(../img/sec_4/fon1.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  border: 0px solid black;
 }
 
 .sec_4 h3 {
@@ -606,9 +612,108 @@ header ul a:active {
   margin-top: 13px;
 }
 
+.sec_4 .img_phone {
+
+  width: 570px;
+  margin-top: 43px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0px solid black;
+}
+
 
 /*>>>>>>>>>>>>>>>>> SECTION_5 <<<<<<<<<<<<<<<<<<<<<<*/
 
+.sec_5 .sec_description {
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(153, 153, 153);
+  line-height: 1.6;
+  text-align: center;
+  width: 950px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.accord_text {
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(153, 153, 153);
+  font-style: italic;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.sec_5 img {
+  border: 0px solid black;
+}
+
+.wrapper5 {
+  display: flex;
+  width: 1200px;
+  height: 380px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.wrapper51 {
+  height:auto;
+  border: 0px solid black;
+  background: rgb(240,250,250);
+}
+
+.sec_5 img {
+  margin-left: 20px;
+}
+
+.sec_5 h5 {
+  display: block;
+  margin-bottom: 25px;
+  margin-left: 20px;
+
+  border: 0px solid black;
+  background: rgb(240,200,250);
+}
+
+details {
+
+  height: auto;
+  width: 600px;
+  border: 0px solid green;
+  margin: 5px;
+  background: rgb(200,245,230);
+}
+
+summary {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  border: 0px solid red;
+}
+
+details > summary {
+  list-style: none;
+}
+
+.wrapper511 {
+
+  margin: 10px;
+  margin-bottom: 5px;
+  border: 1px dashed green;
+}
+
+.wrapper511 p {
+  margin-bottom: 10px;
+  height: 130px;
+  overflow-y: auto;
+}
+
+.slider {
+  margin-top: 250px;
+}
 /*>>>>>>>>>>>>>>>>> SECTION_6 <<<<<<<<<<<<<<<<<<<<<<*/
 
 /*>>>>>>>>>>>>>>>>> SECTION_7 <<<<<<<<<<<<<<<<<<<<<<*/
