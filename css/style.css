@@ -438,7 +438,7 @@ header ul a:active {
 .img_box_3 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   height: 200px;
   width: 300px;
   margin-left: auto;
@@ -453,7 +453,7 @@ header ul a:active {
 
   position: relative;
   width: 150px;
-  margin-top: 55px;
+  margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
   border: 0px solid green;
@@ -467,10 +467,10 @@ header ul a:active {
 }
 
 .img_33 {
-  margin-bottom: -45px;
+
   width: 32px;
   height: 22.5px;
-  margin-top: 25px;
+  margin-top: 70px;
   margin-left: auto;
   margin-right: auto;
   border: 0px solid black;
@@ -894,8 +894,15 @@ header ul a:active {
 
 .sec_6 h5 {
   width: auto;
+  text-align: center;
+  margin-top: 10px;
   margin-left: auto;
-  margin-top: auto;
+  margin-right: auto;
+  border: 0px dashed green;
+}
+
+.sec_6 .heder6 {
+  margin-top: 18px;
 }
 
 .sec_6 .profession {
@@ -906,11 +913,7 @@ header ul a:active {
   line-height: 1.6;
   text-align: center;
   font-weight: normal;
-  border: 1px solid black;
-}
-
-.sec_6 figure {
-  border: 1px solid black;
+  border: 0px solid black;
 }
 
 .sec_6 .wrapper6 {
@@ -920,13 +923,41 @@ header ul a:active {
   width:1200px;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid green;
+  border: 0px solid green;
 }
 .sec_6 .wrapper61 {
-  display: block;
+  display: flex;
+  align-items: center;
   margin-top: 100px;
   width: auto;
-  border: 1px solid green;
+  height: 250px;
+  background-color: rgb(248, 248, 248);
+  border: 0px solid green;
+}
+
+.sec_6 .wrapper62 {
+  position: relative;
+  background-color: rgb(149, 225, 211);
+  width: 380px;
+  height: 470px;
+}
+
+.sec_6 .wrapper63 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-image: url(../img/sec_6/dex.jpg);
+  width: 380px;
+  height: 470px;
+  bottom: 10px;
+  left: -10px;
+  border: 0px solid red;
+}
+
+.sec_6 .wrapper64 {
+  display: flex;
+  border: 0px solid black;
 }
 .sec_6 .footer_pic {
   display: flex;
@@ -936,10 +967,45 @@ header ul a:active {
 
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid red;
+  border: 0px solid red;
 }
 
-
+.sec_6 .facebook64 {
+  display: block;
+  background-image: url(../img/sec_6/facebook.svg);
+  background-repeat: no-repeat;
+  width: 56px;
+  height: 56px;
+  border: 1px solid #f38181;
+}
+.sec_6 .twitter64 {
+  display: block;
+  background-image: url(../img/sec_6/twitter.svg);
+  background-color: #fce38a;
+  background-repeat: no-repeat;
+  background-position: center 50%;
+  width: 56px;
+  height: 56px;
+  border: 1px solid #f38181;
+}
+.sec_6 .pinterest64 {
+  display: block;
+  background-image: url(../img/sec_6/pinterest.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 56px;
+  height: 56px;
+  border: 1px solid #f38181;
+}
+.sec_6 .instagram64 {
+  display: block;
+  background-image: url(../img/sec_6/instagram.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 56px;
+  height: 56px;
+  border: 1px solid #f38181;
+}
 /*>>>>>>>>>>>>>>>>> SECTION_7 <<<<<<<<<<<<<<<<<<<<<<*/
 
 /*>>>>>>>>>>>>>>>>> SECTION_8 <<<<<<<<<<<<<<<<<<<<<<*/
