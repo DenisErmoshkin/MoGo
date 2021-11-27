@@ -170,7 +170,7 @@ h5 {
   margin-right: auto;
 }
 /*header, .sec_1, .sec_2, .sec_3,
-.sec_4, .sec_5, .sec_6, */.sec_7,
+.sec_4, .sec_5, .sec_6, .sec_7,*/
 .sec_8, .sec_9, footer {
   opacity: 0;
 }
@@ -396,7 +396,7 @@ header ul a:active {
 /*>>>>>>>>>>>>>>>>>> SECTION_2 <<<<<<<<<<<<<<<<<<<<<<*/
 
 .sec_2 h3 {
-  margin-top: 117px;
+  margin-top: 115px;
 }
 .sec_2 h4 {
   margin-top: 12px;
@@ -629,12 +629,12 @@ header ul a:active {
 /*>>>>>>>>>>>>>>>>> SECTION_5 <<<<<<<<<<<<<<<<<<<<<<*/
 
 .sec_5 h3 {
-  margin-top: 12px;
+  margin-top: 10px;
   border: 0px solid black;
 }
 
 .sec_5 h4 {
-  margin-top: 13px;
+  margin-top: 12px;
 }
 .sec_5 .sec_description {
   font-size: 15px;
@@ -884,29 +884,30 @@ header ul a:active {
 /*>>>>>>>>>>>>>>>>> SECTION_6 <<<<<<<<<<<<<<<<<<<<<<*/
 
 .sec_6 h3 {
-  margin-top: 100px;
+  margin-top: 95px;
   border: 0px solid black;
 }
 
 .sec_6 h4 {
-  margin-top: 13px;
+  margin-top: 15px;
 }
 
 .sec_6 h5 {
   width: auto;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   border: 0px dashed green;
 }
 
 .sec_6 .heder6 {
-  margin-top: 18px;
+  margin-top: 27px;
 }
 
 .sec_6 .profession {
   font-size: 15px;
+  margin-top: 7px;
   font-family: "Roboto";
   font-style: italic;
   color: rgb(153, 153, 153);
@@ -919,7 +920,7 @@ header ul a:active {
 .sec_6 .wrapper6 {
   display: flex;
   justify-content: space-between;
-  margin-top: 100px;
+  margin-top: 90px;
   width:1200px;
   margin-left: auto;
   margin-right: auto;
@@ -973,10 +974,11 @@ header ul a:active {
 .sec_6 .facebook64 {
   display: block;
   background-image: url(../img/sec_6/facebook.svg);
+  background-color: #f38181;
   background-repeat: no-repeat;
   width: 56px;
   height: 56px;
-  border: 1px solid #f38181;
+  border-right: 1px solid #f38181;
 }
 .sec_6 .twitter64 {
   display: block;
@@ -986,25 +988,51 @@ header ul a:active {
   background-position: center 50%;
   width: 56px;
   height: 56px;
-  border: 1px solid #f38181;
+  border-right: 1px solid #f38181;
 }
 .sec_6 .pinterest64 {
   display: block;
   background-image: url(../img/sec_6/pinterest.svg);
+  background-color: #f38181;
   background-repeat: no-repeat;
   background-position: center;
   width: 56px;
   height: 56px;
-  border: 1px solid #f38181;
+  border-right: 1px solid #f38181;
 }
 .sec_6 .instagram64 {
   display: block;
   background-image: url(../img/sec_6/instagram.svg);
+  background-color: #f38181;
   background-repeat: no-repeat;
   background-position: center;
   width: 56px;
   height: 56px;
-  border: 1px solid #f38181;
+  border: 0px solid #f38181;
+}
+
+.sec_6 .facebook64:hover,
+.sec_6 .facebook64:active {
+  background-color: #fff;
+  background-image: url(../img/sec_6/facebook1.svg);
+}
+
+.sec_6 .twitter64:hover,
+.sec_6 .twitter64:active {
+  background-color: #f38181;
+  background-image: url(../img/sec_6/twitter1.svg);
+}
+
+.sec_6 .pinterest64:hover,
+.sec_6 .pinterest64:active {
+  background-color: #fff;
+  background-image: url(../img/sec_6/pinterest1.svg);
+}
+
+.sec_6 .instagram64:hover,
+.sec_6 .instagram64:active {
+  background-color: #fff;
+  background-image: url(../img/sec_6/instagram1.svg);
 }
 /*>>>>>>>>>>>>>>>>> SECTION_7 <<<<<<<<<<<<<<<<<<<<<<*/
 
