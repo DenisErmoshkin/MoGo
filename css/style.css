@@ -180,7 +180,7 @@ h5 {
 }
 /*header, .sec_1, .sec_2, .sec_3,
 .sec_4, .sec_5, .sec_6, .sec_7,
-.sec_8,.sec_9, */  footer {
+.sec_8,.sec_9, footer */  {
   opacity: 0;
 }
 
@@ -1405,4 +1405,246 @@ header ul a:active {
   border: 0px solid black;
 }
 
-/*>>>>>>>>>>>>>>>>> SECTION_10 <<<<<<<<<<<<<<<<<<<<<*/
+/*>>>>>>>>>>>>>>>>> FOOTER <<<<<<<<<<<<<<<<<<<<<*/
+.footer {
+  padding: 1px;
+  width: 1900px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f8f8f8;
+  background-image: url(../img/footer/fon.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  margin-top: 100px;
+}
+
+.footer .footer_head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0px solid black;
+}
+
+.footer .footer_head_p {
+  font-size: 24px;
+  font-family: "Montserrat";
+  color: rgb(243, 129, 129);
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.footer .line_decor_1 {
+  margin-top: 20px;
+}
+
+.footer .line_decor_9 {
+
+  width: 370px;
+  color: rgb(229, 229, 229);
+  border-top: 2px solid;
+  margin-top: 20px;
+}
+
+/*>>>>>>>>FOOTER_BODY<<<<<<<<<<<*/
+
+.footer .wrapper1 {
+  display: flex;
+  padding: 1px;
+  width: 1200px;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0px solid black;
+}
+
+/*>>>>>>>>wrapper11<<<<<<<<<<<*/
+
+.footer .wrapper11 {
+  margin-right: 0px;
+}
+
+.footer .sec_description {
+  text-align: left;
+  width: 430px;
+  margin-top: 40px;
+}
+
+.footer .footer15k {
+  display: block;
+  margin-top: 30px;
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+}
+
+.footer .follovers {
+  font-size: 15px;
+  font-family: "Montserrat";
+  color: rgb(51, 51, 51);
+  font-weight: 600;
+}
+
+.footer .footer_ul_1 {
+  display: flex;
+  list-style: none;
+}
+
+.footer .footer_ul_1_li {
+
+  justify-content: center;
+  width: 25px;
+  margin-right: 2px;
+}
+
+.footer .footer_ul_1_li_a {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+}
+
+.footer .profession1 {
+  font-size: 15px;
+  margin-left: 0px;
+  margin-right: 10px;
+  font-family: "Roboto";
+  font-style: italic;
+  color: rgb(153, 153, 153);
+  line-height: 1.6;
+  text-align: center;
+  font-weight: normal;
+  border: 0px solid black;
+}
+
+.footer .footer_form {
+  display: flex;
+  align-items: center;
+}
+.footer .footer_form1 {
+  width: 210px;
+  height: 30px;
+  margin-top: 30px;
+  padding: 1px;
+  border: 1px solid rgb(204, 204, 204);
+
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(55, 55, 55);
+  font-style: italic;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.footer .footer_email {
+  border: 0px solid black;
+}
+
+.footer .footer_button {
+  background-color: #95e1d3;
+  text-decoration-color: #fff;
+  margin-left: 0px;
+  margin-top: 30px;
+  width: 150px;
+  height: 34px;
+  border: 0px;
+}
+
+.footer .footer_button_text {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+}
+/*>>>>>>>>wrapper12<<<<<<<<<<<*/
+
+.footer .wrapper12 {
+  padding-top: 5px;
+  margin-left: 20px;
+  width: 400px;
+}
+
+.footer h5 {
+  text-align: left;
+  width: 300px;
+  margin-left: 0px;
+  margin-top: 0px;
+  border: 0px solid black;
+}
+
+.footer .footer_ul_2_h5 {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 250px;
+}
+
+.footer .footer_ul_2 {
+  list-style: none;
+  margin-top: 40px;
+}
+
+.footer .footer_ul_2 > li {
+  margin-top: 25px;
+  width: auto;
+}
+
+.footer .footer_blogs {
+  display: flex;
+}
+
+/*>>>>>>>>wrapper13<<<<<<<<<<<*/
+
+.footer .wrapper13 {
+  padding-top: 5px;
+  margin-left: 90px;
+  width: 400px;
+}
+
+.footer .footer_ul_3 {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-top: 40px;
+}
+
+.footer .footer_ul_3 > li {
+  margin-bottom: -2px;
+  margin-right: 3px;
+}
+
+/************************/
+
+.footer .line_decor_10 {
+
+  width: 1200px;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(229, 229, 229);
+  border-top: 2px solid;
+}
+
+.footer .footer_text_2 {
+  display: block;
+  text-align: center;
+  width: 350px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/***********************************************/
