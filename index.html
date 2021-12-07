@@ -505,7 +505,7 @@
                 CONSECTETUR ADIPISCING ELIT, SED DO EIUSMOD TEMPOR</br>
                 <time class="profession1" datetime="2016-01-09">Jan 9, 2016<time>
               </h5>
-              
+
             </a>
           </li>
           <li>
@@ -579,5 +579,16 @@
     <h5 class="footer_text_2">2016 MoGo free PSD template by <span style="color: rgb(243, 129, 129);">Laaqiq</span></h5>
 
   </footer>
+  <script>
+  /*>>>>>>>>>>>>>>accordeon's script<<<<<<<<<<<<<<<<<<<<*/
+    a = document.querySelector(".det1");
+    b = document.querySelector(".det2");
+    c = document.querySelector(".det3");
+
+    a.addEventListener("click", function (evt) {b.removeAttribute("open", ""); c.removeAttribute("open", "");});
+    b.addEventListener("click", function (evt) {a.removeAttribute("open", ""); c.removeAttribute("open", "");});
+    c.addEventListener("click", function (evt) {a.removeAttribute("open", ""); b.removeAttribute("open", "");});
+
+  </script>
 </body>
 </html>
